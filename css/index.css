@@ -1,0 +1,291 @@
+.main{
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 219px; 
+}
+.main .focus{
+    position: relative;
+    width: 720px;
+    height:455px;
+}
+.main .focus .newsflash{
+    width: 250px;
+    height: 455px;
+}
+.main .focus .arrow-left,
+.main .focus .arrow-right{
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background:rgba(0,0,0,0.3);
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+.main .focus .arrow-left{
+    transform: rotateY(180deg);
+}
+.main .focus .arrow-right{
+    right: 0;
+}
+.main .focus .circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.main .focus .circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border:2px solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.main .focus .circle li.current{
+    background-color: #fff;
+}
+.main .newsflash{
+    width: 250px;
+}
+.main .newsflash .news{
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.main .newsflash .news .news_hd{
+    height: 32px;
+    /* dotted 点线 dashed 虚线 */
+    border-bottom: 1px dotted #ccc;
+    line-height: 32px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.main .newsflash .news .news_hd a{
+    float:right;
+    padding: 0 15px;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.main .newsflash .lifeservice{
+    height: 208px;
+    border:1px solid #ccc;
+    border-top: none;
+}
+.main .newsflash .bargin{
+    height: 75px;
+    margin-top: 5px;
+}
+.main .newsflash .news .news_td{
+    padding: 10px 15px 0 15px;
+}
+.main .newsflash .news .news_td li{
+    height: 23px;
+    /* 文字不换行 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.main .newsflash .lifeservice{
+    overflow: hidden;
+}
+.main .newsflash .lifeservice ul{
+    width: 252px;
+}
+.main .newsflash .lifeservice li{
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.main .newsflash .lifeservice li a{
+    display: block;
+    /* overflow: hidden; 解决i引起的外边距塌陷合并问题 */
+    /* overflow: hidden; */
+    height: 100%;
+}
+.main .newsflash .lifeservice li a .service_ico{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;   
+}
+.main .newsflash .lifeservice li p{
+    text-align: center;
+}
+.main .newsflash .lifeservice li a .service_ico_huafei{
+    background-position: -16px -15px;
+}
+.main .newsflash .lifeservice li a .service_ico_jipiao{
+    background-position: -77px -15px;
+}
+.main .newsflash .lifeservice li a .service_ico_jiudian{
+    background-position: -140px -15px;
+}
+.main .newsflash .lifeservice li a .service_ico_youxi{
+    background-position: -206px -15px;
+}
+.main .newsflash .lifeservice li a .service_ico_jiayouka{
+    background-position: -16px -88px;
+}
+.main .newsflash .lifeservice li a .service_ico_huochepiao{
+    background-position: -77px -88px;
+}
+.main .newsflash .lifeservice li a .service_ico_zhongchou{
+    background-position: -140px -88px;
+}
+.main .newsflash .lifeservice li a .service_ico_licai{
+    background-position: -206px -88px;
+}
+.main .newsflash .lifeservice li a .service_ico_baitiao{
+    background-position: -16px -159px;
+}
+.main .newsflash .lifeservice li a .service_ico_dianyingka{
+    background-position: -77px -159px;
+}
+.main .newsflash .lifeservice li a .service_ico_qiyegou{
+    background-position: -140px -152px;
+}
+.main .newsflash .lifeservice li a .service_ico_lipinka{
+    background-position: -206px -159px;
+}
+.main .newsflash .lifeservice li .hot{
+    position: absolute;
+    right:0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background:url(../img/jian.jpg) no-repeat;
+}
+/* 推荐模块 */
+.recommend{
+    height: 163px;
+    margin-top: 10px;
+}
+.recommend .recom_hd{
+    float: left;
+    width: 200px;
+    height: 163px;
+    background-color:#5c5251;
+    text-align: center;
+}
+.recommend .recom_hd img{
+    margin: 30px 0 10px 0;
+}
+.recommend .recom_hd h3{
+    font-size: 18px;
+    color: #fff;
+    /* 使标题不加粗 */
+    font-weight: normal;
+}
+.recommend .recom_bd{
+    float: left;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recommend .recom_bd li{
+    float: left;
+    margin-top: 10px;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+}
+.recommend .recom_bd li.last{
+    border: none;
+}
+/* 商品区 */
+.box_hd{
+    margin-top: 20px;
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3{
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+}
+.box_hd .tab_list{
+    line-height: 30px;
+}
+.box_hd .tab_list li{
+    float: left;
+}
+.box_hd .tab_list li a{
+    margin: 0 15px;
+}
+.box_bd{
+    height: 360px;
+}
+.box_bd .tab_con li{
+    float: left;
+    height: 360px;
+    overflow: hidden;
+}
+.box_bd .tab_con li.w1{
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.box_bd .tab_con .w1 .tab_con_list{
+    text-align: center;
+    margin-bottom: 15px;
+    /* 清除浮动 父级没有高，孩子又添加了浮动，给父级添加浮动 */
+    overflow: hidden;
+}
+.box_bd .tab_con .w1 .tab_con_list li{
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+}
+.box_bd .tab_con li.w2{
+    width: 329px;
+}
+.box_bd .tab_con li.w3{
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.box_bd .tab_con li.except{
+    border: 0;
+}
+.box_bd .tab_con .tab_con_item{
+    border-bottom: 1px solid #ccc;
+}
+.box_bd img{
+    /* 过渡写到本身上，谁做动画给谁加 */
+    transition:all .2s;
+}
+/* 鼠标放到图片上，图片向右滑动效果 */
+.box_bd img:hover{
+    margin-left: 8px;
+}
+/* 侧边导航 */
+.fixedtool{
+    position: fixed;
+    width: 66px;
+    top: 200px;
+    /* 让侧边导航靠近版心 先距离浏览器中心50% 再往回走 */
+    left: 50%;
+    margin-left: -676px;
+    background-color: #fff;
+}
+.fixedtool li{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.fixedtool li.current{
+    background-color: #c81623;
+    color:#fff;
+}

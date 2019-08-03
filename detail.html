@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 网页优化三大标签之一 标题：网站名字+网站说明 百度要求不超过28个字 -->
+    <title>详情页-手机页面！</title>
+    <!-- 网页优化三大标签之一 meta标签 description 网站说明 -->
+    <meta name="description" content="品优购-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服
+           饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+    <!-- 网页优化三大标签之一 meta标签 keywords 关键字-->
+    <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东" />
+    <!-- 引入favicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 引入css 初始化的css文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式的css文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入详情页的css文件 -->
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <!-- 顶部快捷导航栏开始 -->
+    <div class="short_cut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>品优购欢迎你！</li>
+                    <li>
+                        <a href="#"> 请登录</a>
+                        <a href="#" class="style_red"> 免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的品优购</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">京东会员</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">企业采购</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">客户服务</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">网站导航</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">手机品优购</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部快捷导航栏结束 -->
+    <!-- 头部区域开始 -->
+    <div class="header w">
+        <!-- logo开始 -->
+        <div class="logo">
+            <h1><a href="index.html" title="品优购">品优购</a></h1>
+        </div>
+        <!-- logo 结束-->
+        <!-- search开始 -->
+        <div class="search">
+            <input type="text" class="text" value="请搜索内容...">
+            <button class="btn">搜索</button>
+        </div>
+        <!-- search结束 -->
+        <!-- 热词模块开始 -->
+        <div class="hotwords">
+            <a href="#" class="style_red">七夕美妆礼</a>
+            <a href="#">七夕玫瑰</a>
+            <a href="#">酸奶大赏</a>
+            <a href="#">空调钜惠</a>
+            <a href="#">5折家电</a>
+            <a href="#">零食七夕</a>
+            <a href="#">七夕奢品</a>
+            <a href="#">每100-50</a>
+            <a href="#">vivo Z5</a>
+        </div>
+        <!-- 热词模块结束 -->
+        <!-- 购物车模块开始 -->
+        <div class="shopcar">
+            <i class="car"></i> 我的购物车<i class="arrow"></i>
+            <i class="count">8</i>
+        </div>
+        <!-- 购物车模块结束 -->
+    </div>
+    <!-- 头部区域结束 -->
+    <!-- 导航开始 -->
+    <div class="nav">
+        <div class="w">
+            <div class="dropdown fl">
+                <div class="dt">全部商品分类</div>
+                <div class="dd" style="display: none">
+                    <ul>
+                        <li class="menu_item">
+                            <a href="#">家用电器</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">手机</a>/
+                            <a href="#">运营商</a>/
+                            <a href="#">数码</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">电脑</a>/
+                            <a href="#">办公</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">家居</a>/
+                            <a href="#">家具</a>/
+                            <a href="#">家装</a>/
+                            <a href="#">厨具</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">男装</a>/
+                            <a href="#">女装</a>/
+                            <a href="#">童装</a>/
+                            <a href="#">内衣</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">美妆</a>/
+                            <a href="#">个护清洁</a>/
+                            <a href="#">宠物</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">女鞋</a>/
+                            <a href="#">箱包</a>/
+                            <a href="#">钟表</a>/
+                            <a href="#">珠宝</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">男鞋</a>/
+                            <a href="#">运动</a>/
+                            <a href="#">户外</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">房产</a>/
+                            <a href="#">汽车</a>/
+                            <a href="#">汽车用品</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">母婴</a>/
+                            <a href="#">玩具乐器</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">食品</a>/
+                            <a href="#">酒类</a>/
+                            <a href="#">生鲜</a>/
+                            <a href="#">特产</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">艺术</a>/
+                            <a href="#">礼品鲜花</a>/
+                            <a href="#">农资绿植</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">医药保健</a>/
+                            <a href="#">计生情趣</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">图书</a>/
+                            <a href="#">文娱</a>/
+                            <a href="#">电子书</a>
+                            <i></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">机票</a>/
+                            <a href="#">酒店</a>/
+                            <a href="#">旅游</a>/
+                            <a href="#">生活</a>
+                            <i></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navitems fl">
+                <ul>
+                    <li><a href="#"> 秒杀</a></li>
+                    <li><a href="#">优惠券</a></li>
+                    <li><a href="#">PLUS会员</a></li>
+                    <li><a href="#">品牌闪购</a></li>
+                    <li><a href="#">拍卖</a></li>
+                    <li><a href="#">海囤全球</a></li>
+                    <li><a href="#">京东金融</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 导航结束 -->
+    <!-- 详情页内容部分开始 -->
+    <div class="de_container w">
+        <!-- 面包屑导航 -->
+        <div class="crumb_wrap">
+            <a href="#">手机/数码/通讯</a>
+            <a href="#">手机</a>
+            <a href="#">Apple手机</a>
+            <a href="#">iphone 6S Plus系类</a>
+        </div>
+        <!-- 产品介绍模块 -->
+        <div class="product_inpro clearfix">
+            <!-- 预览区域 -->
+            <div class="preview_wrap fl">
+                <div class="preview_img">
+                    <img src="./upload/s3.png" alt="">
+                </div>
+                <div class="previw_list">
+                    <a href="#" class="arrow_prev"></a>
+                    <ul class="list_item">
+                        <li>
+                            <img src="./upload/pre.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./upload/pre.jpg" alt="">
+                        </li>
+                        <li class="current">
+                            <img src="./upload/pre.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./upload/pre.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="./upload/pre.jpg" alt="">
+                        </li>
+                    </ul>
+                    <a href="#" class="arrow_next"></a>
+                </div>
+            </div>
+            <!-- 产品详细信息 -->
+            <div class="iteminfo_wrap fr">
+                <div class="sku_name">
+                    小米 Redmi K20Pro 4800万超广角三摄 8GB+128GB 全面屏拍照智能游戏手机
+                </div>
+                <div class="news">【限时6期白条免息】骁龙855旗舰处理器,索尼4800万超广角三摄,前置2000万升降式相机!</div>
+                <div class="summary">
+                    <dl class="summary_price clearfix">
+                        <dt>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</dt>
+                        <dd>
+                            <i class="price">￥2499.00</i>
+                            <a href="#">降价通知</a>
+                            <div class="remark">累计评价22万+</div>
+                        </dd>
+                    </dl>
+                    <dl class="summary_promotion clearfix">
+                        <dt>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销</dt>
+                        <dd>
+                            <em>加购价</em>
+                            满88元减20元 详情 >>
+                        </dd>
+                    </dl>
+                    <dl class="summary_support clearfix">
+                        <dt>支&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;持</dt>
+                        <dd>
+                            以旧换新，闲置手机回收 4G套餐超值抢 礼品购
+                        </dd>
+                    </dl>
+                    <dl class="summary_send clearfix">
+                        <dt>配&nbsp;&nbsp;送&nbsp;至</dt>
+                        <dd>
+                            河南安阳市文峰区宝莲寺镇
+                            宝莲寺镇高庄镇城区紫薇大道街道中华路街道
+                            永明路街道西关街道西大街街道头二三街道甜水井街道南关街道开发区银杏大街街道
+                        </dd>
+                    </dl>
+                    <dl class="choose_color clearfix">
+                        <dt>选择颜色</dt>
+                        <dd>
+                            <!-- 点击不跳转 -->
+                            <a href="javascript:;">红色</a>
+                            <a href="avascript:;" class="current">白色</a>
+                            <a href="avascript:;">黑色</a>
+                            <a href="avascript:;">金色</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose_version clearfix">
+                        <dt>选择版本</dt>
+                        <dd>
+                            <!-- 点击不跳转 -->
+                            <a href="javascript:;">公开版</a>
+                            <a href="avascript:;" class="current">移动4G</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose_capacity clearfix">
+                        <dt>选择容量</dt>
+                        <dd>
+                            <!-- 点击不跳转 -->
+                            <a href="javascript:;">16G</a>
+                            <a href="avascript:;" class="current">64G</a>
+                            <a href="avascript:;">128G</a>
+                        </dd>
+                    </dl>
+
+                    <dl class="buy_way clearfix">
+                        <dt>购买方式</dt>
+                        <dd>
+                            <!-- 点击不跳转 -->
+                            <a href="javascript:;" class="current">官方标配</a>
+                            <a href="avascript:;">移动优惠购</a>
+                            <a href="avascript:;">电信优惠购</a>
+                            <a href="avascript:;">金色</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose_suit clearfix">
+                        <dt>套&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;装</dt>
+                        <dd>
+                            <!-- 点击不跳转 -->
+                            <a href="javascript:;">保护套装</a>
+                            <a href="avascript:;" class="current">充电套装</a>
+                        </dd>
+                    </dl>
+                    <div class="choose_btns">
+                        <div class="choose_amount fl">
+                            <input type="text" value="1">
+                            <a href="javascript:;" class="add">+</a>
+                            <a href="javascript:;" class="reduce">-</a>
+                        </div>
+                        <a href="#" class="addcar fl">加入购物车</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 产品详细介绍模块 -->
+        <div class="product_detail clearfix">
+            <!-- aside模块 -->
+            <div class="aside fl">
+                <div class="tablist">
+                    <ul>
+                        <li class="first_tab fl current">相关分类</li>
+                        <li class="second_tab fl">推荐品牌</li>
+                    </ul>
+                </div>
+                <div class="tab_con_list clearfix">
+                    <ul class="tab_con_list">
+                        <li><a href="#">手机</a></li>
+                        <li><a href="#">手机壳</a></li>
+                        <li><a href="#">内存卡</a></li>
+                        <li><a href="#">iphone配件</a></li>
+                        <li><a href="#">贴膜</a></li>
+                        <li><a href="#">手机耳机</a></li>
+                        <li><a href="#">移动电源</a></li>
+                        <li><a href="#">平板电脑</a></li>
+                        <li><a href="#">笔记本</a></li>
+                        <li><a href="#">蓝牙耳机</a></li>
+                    </ul>
+                </div>
+                <h4>购买此商品的用户还买了</h4>
+                <div class="tab_con">
+                    <ul>
+                        <li>
+                            <img src="./upload/aside_img.jpg" alt="">
+                            <h5>realme X 4800万双摄 升降摄像头 屏下指纹 游戏智能手机 8GB+128GB朋克蓝 全网</h5>
+                            <div class="aside_price">¥1900</div>
+                            <a href="#" class="aside_addcar">加入购物车</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab_con">
+                    <ul>
+                        <li>
+                            <img src="./upload/aside_img.jpg" alt="">
+                            <h5>realme X 4800万双摄 升降摄像头 屏下指纹 游戏智能手机 8GB+128GB朋克蓝 全网</h5>
+                            <div class="aside_price">¥1900</div>
+                            <a href="#" class="aside_addcar">加入购物车</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab_con">
+                    <ul>
+                        <li>
+                            <img src="./upload/aside_img.jpg" alt="">
+                            <h5>realme X 4800万双摄 升降摄像头 屏下指纹 游戏智能手机 8GB+128GB朋克蓝 全网</h5>
+                            <div class="aside_price">¥1900</div>
+                            <a href="#" class="aside_addcar">加入购物车</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab_con">
+                    <ul>
+                        <li>
+                            <img src="./upload/aside_img.jpg" alt="">
+                            <h5>realme X 4800万双摄 升降摄像头 屏下指纹 游戏智能手机 8GB+128GB朋克蓝 全网</h5>
+                            <div class="aside_price">¥1900</div>
+                            <a href="#" class="aside_addcar">加入购物车</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- detail模块 -->
+            <div class="detail fr">
+                <div class="detail_tab_list">
+                    <ul>
+                        <li class="current">商品介绍</li>
+                        <li>规格与包装</li>
+                        <li>售后保障</li>
+                        <li>商品评价(50000)</li>
+                        <li>手机社区</li>
+                    </ul>
+                </div>
+                <div class="detail_tab_con">
+                    <div class="item">
+                        <ul>
+                            <li>品牌： 小米（MI）</li>
+                            <li>商品名称：小米Redmi K20 Pro</li>
+                            <li>商品编号：100003534811</li>
+                            <li>商品毛重：480.00g</li>
+                            <li>商品产地：中国大陆</li>
+                            <li>系统：安卓（Android）</li>
+                            <li>前置摄像头像素：2000万及以上</li>
+                            <li>机身厚度：普通（8.5mm以上）</li>
+                            <li>后置摄像头像素：2000万及以上</li>
+                            <li>电池容量：4000mAh-5999mAh</li>
+                            <li>机身内存：128GB运行内存：8GB</li>
+                        </ul>
+                        <p><a href="#" class="more">查看更多参数</a></p>
+                        <img src="upload/detail_img1.jpg" alt="">
+                        <img src="upload/detail_img2.jpg" alt="">
+                        <img src="upload/detail_img3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 详情页内容部分结束 -->
+    <!-- footer部分开始 -->
+    <div class="footer">
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <i class="mod_service_zheng"></i>
+                        <div class="mod-service_tit">
+                            <h5>正品保障</h5>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_kuai"></i>
+                        <div class="mod-service_tit">
+                            <h5>多仓直发</h5>
+                            <p>多仓直发，极速配送</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_duo"></i>
+                        <div class="mod-service_tit">
+                            <h5>品类齐全</h5>
+                            <p>品类齐全，轻松购物</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_tian"></i>
+                        <div class="mod-service_tit">
+                            <h5>天天低价</h5>
+                            <p>天天低价，畅选无忧</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_help"></i>
+                        <div class="mod-service_tit">
+                            <h5>正品保障</h5>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mode_help">
+                <dl class="mode_help_item">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员介绍</a></dd>
+                    <dd><a href="#">生活旅行/团购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">大家电</a></dd>
+                    <dd><a href="#">联系客服</a></dd>
+                </dl>
+                <dl class="mode_help_item">
+                    <dt>配送方式</dt>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">211限时达</a></dd>
+                    <dd><a href="#">配送服务查询</a></dd>
+                    <dd><a href="#">配送费收取标准</a></dd>
+                    <dd><a href="#">海外配送</a></dd>
+                </dl>
+                <dl class="mode_help_item">
+                    <dt>支付方式</dt>
+                    <dd><a href="#">货到付款</a></dd>
+                    <dd><a href="#">在线支付</a></dd>
+                    <dd><a href="#">分期付款</a></dd>
+                    <dd><a href="#">邮局汇款</a></dd>
+                    <dd><a href="#">公司转账</a></dd>
+                </dl>
+                <dl class="mode_help_item">
+                    <dt>售后服务</dt>
+                    <dd><a href="#">售后政策</a></dd>
+                    <dd><a href="#">价格保护</a></dd>
+                    <dd><a href="#">退款说明</a></dd>
+                    <dd><a href="#">返修/退换货</a></dd>
+                    <dd><a href="#">取消订单</a></dd>
+                </dl>
+                <dl class="mode_help_item">
+                    <dt>特色服务</dt>
+                    <dd><a href="#">夺宝岛</a></dd>
+                    <dd><a href="#">DIY装机</a></dd>
+                    <dd><a href="#">京东E卡</a></dd>
+                    <dd><a href="#">京东通信</a></dd>
+                    <dd><a href="#">京鱼座智能</a></dd>
+                </dl>
+                <dl class="mode_help_item mode_help_app">
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="./upload/erweima.png" alt="">
+                        <p>品优购客户端</p>
+                    </dd>
+
+                </dl>
+            </div>
+            <div class="mod_copyright">
+                <div class="mod_copyright_links">
+                    <a href="#">关于我们</a><span>|</span>
+                    <a href="#">联系我们</a><span>|</span>
+                    <a href="#">联系客服</a><span>|</span>
+                    <a href="#">合作招商</a><span>|</span>
+                    <a href="#">商家帮助</a><span>|</span>
+                    <a href="#">营销中心</a><span>|</span>
+                    <a href="#">手机京东</a><span>|</span>
+                    <a href="#">友情链接</a><span>|</span>
+                    <a href="#">销售联盟</a><span>|</span>
+                    <a href="#">京东社区</a><span>|</span>
+                    <a href="#">风险监测</a><span>|</span>
+                    <a href="#">隐私政策</a><span>|</span>
+                    <a href="#">京东公益</a><span>|</span>
+                    <a href="#">English Site</a><span>|</span>
+                    <a href="#">Media & IR</a>
+                </div>
+                <p>互联网出版许可证编号新出网证(京)字150号|出版物经营许可证|网络文化经营许可证京网文[2014]2148-348号|违法和不良信息举报电话：4006561155
+                </p>
+                <p>Copyright © 2004 - 2019 京东JD.com 版权所有|消费者维权热线：4006067733经营证照|(京)网械平台备字(2018)第00003号|营业执照</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer部分结束 -->
+</body>
+
+</html>
