@@ -213,6 +213,12 @@
     border: 1px solid #ccc;
     /* height: 1700px; */
 }
+.de_container .product_detail .aside section{
+    display: none;
+}
+.de_container .product_detail .aside .show_tab_item{
+    display: block;
+}
 .de_container .product_detail .aside .tablist{
     height: 34px;
 }
@@ -223,6 +229,7 @@
     height: 33px;
     text-align: center;
     line-height: 33px;
+    cursor: pointer;
 }
 .de_container .product_detail .aside .tablist .current{
     border-bottom: 1px soliid transparent;
@@ -284,6 +291,12 @@
 }
 .de_container .product_detail .detail{
     width: 978px;
+}
+.de_container .product_detail .detail section{
+    display: none;
+}
+.de_container .product_detail .detail .show_tab_item{
+    display: block;
 }
 .de_container .product_detail .detail .detail_tab_list{
     height: 39px;

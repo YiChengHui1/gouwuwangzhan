@@ -7,13 +7,68 @@
     position: relative;
     width: 720px;
     height:455px;
+    /* overflow: hidden; */
 }
+.focus .img-wrap img{
+    position: absolute;
+    width: 720px;
+    height:455px;
+}
+.focus .btn-list{
+	position: absolute;
+    right: 150px;
+    /* 530 */
+    top: 400px; 
+    left: 100px;
+	width: 200px;
+	height: 20px;
+	/*border: 1px solid black;*/
+}
+.focus .btn-list .btn{
+	width: 6px;
+    height: 6px;
+    border: 2px solid #aaa;
+    background-color: #747474;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.focus .btn-list .btn:hover,.focus .btn-list .active{
+	background-color: #e3e3e3;
+	border-color: #8a8a8a;
+}
+
+.focus .table{
+	width: 41px;
+    height: 69px;
+    background-image: url(../img/icon-slides.png);
+    position: absolute;
+    top: 220px;
+    cursor: pointer;
+}
+.focus .left{
+	left: 0;
+    background-position-x: 82px;
+}
+.focus .right{
+	right: 0;
+    background-position-x: 41px;
+}
+.focus .left:hover{
+	background-position-x:166px; 
+}
+
+.focus .right:hover{
+	background-position-x:120px; 
+}
+
 .main .focus .newsflash{
     width: 250px;
     height: 455px;
 }
-.main .focus .arrow-left,
-.main .focus .arrow-right{
+/* .main .focus .arrow_left,
+.main .focus .arrow_right{
     position: absolute;
     top:50%;
     margin-top: -20px;
@@ -26,11 +81,26 @@
     font-family: 'icomoon';
     font-size: 18px;
 }
-.main .focus .arrow-left{
+.main .focus .arrow_left:hover,
+.main .focus .arrow_right:hover{
+    background:rgba(0,0,0,0.7);
+}
+.main .focus .arrow_left{
     transform: rotateY(180deg);
 }
-.main .focus .arrow-right{
+.main .focus .arrow_right{
     right: 0;
+}
+/* .main .focus ul li a{
+    display: none;
+}
+.main .focus ul li .show{
+    display: inline;
+}  */
+/* .main .focus .img-wrap img{
+    position: absolute;
+    width: 720px;
+    height: 455px;
 }
 .main .focus .circle{
     position: absolute;
@@ -49,7 +119,7 @@
 }
 .main .focus .circle li.current{
     background-color: #fff;
-}
+}  */
 .main .newsflash{
     width: 250px;
 }
